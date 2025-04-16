@@ -1,4 +1,13 @@
-# 🎮 LevelUp Memory – Jogo de Memória Inteligente
+<div align="center">
+  
+  # 🎮 LevelUp Memory – Jogo de Memória Inteligente
+  
+  [![Azure](https://img.shields.io/badge/A-Azure-0091FF?style=for-the-badge&logoColor=white&labelColor=0078D4)](https://azure.microsoft.com/)
+  [![TensorFlow](https://img.shields.io/badge/TensorFlow-0091FF?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0078D4)](https://www.tensorflow.org/)
+  [![Python](https://img.shields.io/badge/Python-0091FF?style=for-the-badge&logo=python&logoColor=white&labelColor=0078D4)](https://www.python.org/)
+  [![AI](https://img.shields.io/badge/AI_Powered-0091FF?style=for-the-badge&logo=openai&logoColor=white&labelColor=0078D4)](https://azure.microsoft.com/services/cognitive-services/)
+  
+</div>
 
 
 ## Descrição
@@ -6,7 +15,7 @@
 **LevelUp Memory** é um jogo de memória online com níveis de dificuldade adaptativos e IA integrada, desenvolvido com foco em jogabilidade, usabilidade e personalização da experiência.  
 Utilizando tecnologias de ponta como Azure e TensorFlow.js, o jogo identifica o estilo cognitivo da pessoa jogadora com base em seu desempenho e fornece feedbacks personalizados e motivadores.
 
-## Tecnologias Utilizadas
+## Tecnologias 
 
 - 🎨 **Frontend:** Vue 3 
 - 🎮 **Estilo:** CSS puro com tema dark 
