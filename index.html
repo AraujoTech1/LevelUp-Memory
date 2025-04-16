@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LevelUp Memory</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>🧠 LevelUp Memory</h1>
+
+    <div id="board" class="grid">
+      <div
+        v-for="card in board"
+        :key="card.id"
+        class="card"
+        :class="{ flipped: card.flipped || card.matched }"
+        @click="flipCard(card)"
+      >
+        {{ card.flipped || card.matched ? card.value : '❓' }}
+      </div>
+    </div>
+
+    <p id="feedback" class="feedback">{{ feedback }}</p>
+  </div>
+
+  <!-- Vue 3 -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <!-- TensorFlow -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.16.0/dist/tf.min.js"></script>
+  <!-- Scripts do projeto -->
+  <script src="tensorflow.js"></script>
+  <script src="azure-function.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
