@@ -22,7 +22,7 @@ Utilizando tecnologias de ponta como Azure e TensorFlow.js, o jogo identifica o 
 | 🎮 **Estilo** | CSS puro (tema escuro) |
 | 🤖 **IA Generativa** | GPT-3.5 via lógica simulada |
 | 🧠 **Análise Cognitiva** | TensorFlow.js rodando no navegador para detectar estilo cognitivo |
-| 🗣️ **PNL (Processamento de Linguagem)** | Lógica JavaScript local inspirada no Azure Language Studio |
+| 🗣️ **PNL (Processamento de Linguagem)** | JavaScript local inspirada no Azure Language Studio |
 | ☁️ **Hospedagem** | Azure Static Web Apps (via Azure for Students) |
 
 ## Processo de Criação
