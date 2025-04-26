@@ -25,7 +25,7 @@ Utilizando tecnologias de ponta como Azure e TensorFlow.js, o jogo identifica o 
 | 🗣️ **PNL (Processamento de Linguagem)** | Lógica JavaScript local inspirada no Azure Language Studio |
 | ☁️ **Hospedagem** | Azure Static Web Apps (via Azure for Students) |
 
-## 🚀 Processo de Criação
+## Processo de Criação
 
 1. **Ideação:** O projeto nasceu da ideia de unir diversão com personalização inteligente.  
 2. **Prototipação:** Um jogo de memória simples foi estruturado em Vue 3 com uma grade de cartas embaralhadas.  
